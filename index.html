@@ -55,14 +55,20 @@
     <div class="section-inner">
       <h2><span class="lang-en">Publications</span><span class="lang-ko">논문</span></h2>
 
-      <article class="pub-card pub-card--journal">
-        <span class="badge"><span class="lang-en">First Author</span><span class="lang-ko">제1저자</span></span>
+      <div class="pub-grid">
+      <article class="pub-card" tabindex="0">
+        <span class="badge"><span class="lang-en">International Journal</span><span class="lang-ko">국제 저널</span></span>
+        <span class="badge badge--muted"><span class="lang-en">First Author</span><span class="lang-ko">제1저자</span></span>
         <h3>A GT 3D Bounding-Box-Based Framework for Geometric Quantification and Spatial Validation of Vehicle Frontal Blind Spots</h3>
         <p class="pub-meta">Heeju Je, Seoyoung Choi, and Beom Kwon. (2026). <em>Sensors</em>, 26(21), 7093.</p>
         <p>
           <span class="lang-en">Proposed a GT 3D bounding-box–based geometric method quantifying frontal blind-spot distance, area, and volume using the TUMTraf dataset, extending a prior 2D CCTV-based project. Led research design, data preprocessing, geometric modeling, validation, and manuscript preparation.</span>
           <span class="lang-ko">TUMTraf 데이터셋을 활용해 GT 3D 바운딩 박스 기반으로 차량 전방 사각지대의 거리·면적·부피를 정량화하는 기하학적 방법을 제안했습니다. 기존 2D CCTV 기반 프로젝트를 3D로 확장한 연구이며, 연구 설계·데이터 전처리·기하 모델링·검증·논문 작성을 주도했습니다.</span>
         </p>
+        <figure class="pub-figure">
+          <img src="assets/img/sensors-figure1.png" alt="Figure 1 from the Sensors paper: geometric representation of the proposed frontal blind-spot model, side-view and plan-view / Sensors 논문 Figure 1: 제안된 전방 사각지대 모델의 기하학적 표현 (측면도 및 평면도)" loading="lazy">
+          <figcaption><span class="lang-en">Figure 1, Sensors (2026)</span><span class="lang-ko">Figure 1, Sensors (2026)</span></figcaption>
+        </figure>
         <div class="pub-links">
           <a href="https://doi.org/10.3390/s26217093" target="_blank" rel="noopener">DOI: 10.3390/s26217093</a>
           <a href="assets/docs/sensors-paper.pdf" target="_blank" rel="noopener"><span class="lang-en">Download PDF</span><span class="lang-ko">PDF 다운로드</span></a>
@@ -70,20 +76,25 @@
         </div>
       </article>
 
-      <article class="pub-card">
-        <span class="badge badge--muted"><span class="lang-en">Conference Paper</span><span class="lang-ko">학술대회 논문</span></span>
+      <article class="pub-card" tabindex="0">
+        <span class="badge"><span class="lang-en">Domestic Conference</span><span class="lang-ko">국내 학회</span></span>
         <h3>Analysis of Visual Characteristics That Cause 3D Reconstruction Failures in Classrooms</h3>
         <p class="pub-meta">Bo-min Son, Hee-Ju Je, and Tae-wan Kim. (2026). <em>Proceedings of the Annual Conference of KIPS (ACK 2026)</em>, 33(2), pp. 1196–1198.</p>
         <p>
           <span class="lang-en">Examined how camera viewpoint and reconstruction seed variation across multiple classroom scenes relate to 3D reconstruction failures, as part of a capstone project.</span>
           <span class="lang-ko">캡스톤 프로젝트의 일환으로, 여러 교실 장면에서 카메라 시점과 재구성 시드(seed) 변화가 3D 재구성 실패와 어떤 관련이 있는지 분석했습니다.</span>
         </p>
+        <figure class="pub-figure">
+          <img src="assets/img/kips-pipeline.png" alt="Reconstruction pipeline diagram: classroom video capture, frame extraction, SIFT feature extraction, sequential matching/loop detection, and Incremental vs. Global reconstruction comparison / 재구성 파이프라인 다이어그램: 강의실 영상 촬영, 프레임 추출, SIFT 특징점 추출, 순차 매칭·루프 검출, Incremental 대 Global 복원 비교" loading="lazy">
+          <figcaption><span class="lang-en">Reconstruction pipeline, KIPS ACK 2026</span><span class="lang-ko">재구성 파이프라인, KIPS ACK 2026</span></figcaption>
+        </figure>
         <div class="pub-links">
           <a href="assets/docs/kips-paper.pdf" target="_blank" rel="noopener"><span class="lang-en">Download paper (PDF)</span><span class="lang-ko">논문 다운로드(PDF)</span></a>
           <a href="assets/docs/capstone-poster.pdf" target="_blank" rel="noopener"><span class="lang-en">View poster (PDF)</span><span class="lang-ko">포스터 보기(PDF)</span></a>
           <a href="#projects"><span class="lang-en">View project</span><span class="lang-ko">프로젝트 보기</span></a>
         </div>
       </article>
+      </div>
     </div>
   </section>
 
@@ -114,6 +125,10 @@
             <span class="lang-en">Built the full measurement pipeline behind the Sensors paper — from TUMTraf label preprocessing and geometric modeling to camera-projection checks, sensitivity analysis, and qualitative validation.</span>
             <span class="lang-ko">Sensors 논문을 뒷받침하는 전체 측정 파이프라인을 직접 구축했습니다 — TUMTraf 라벨 전처리와 기하 모델링부터 카메라 투영 검증, 민감도 분석, 정성적 검증까지.</span>
           </p>
+          <figure class="pub-figure">
+            <img src="assets/img/sensors-figure5.jpg" alt="Figure 5 from the Sensors paper: representative camera-projection examples under five observation conditions (near range, narrow width, wide width, partial occlusion, far range) / Sensors 논문 Figure 5: 다섯 가지 관측 조건(근거리, 좁은 폭, 넓은 폭, 부분 가림, 원거리)에서의 카메라 투영 예시" loading="lazy">
+            <figcaption><span class="lang-en">Figure 5, Sensors (2026)</span><span class="lang-ko">Figure 5, Sensors (2026)</span></figcaption>
+          </figure>
           <div class="pub-links">
             <a href="#publications"><span class="lang-en">Published in Sensors — view publication</span><span class="lang-ko">Sensors 저널 게재 — 논문 보기</span></a>
           </div>

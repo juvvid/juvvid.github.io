@@ -22,6 +22,14 @@
     });
   }
 
+  var pubCards = document.querySelectorAll(".pub-grid .pub-card");
+  pubCards.forEach(function (card) {
+    card.addEventListener("click", function () {
+      pubCards.forEach(function (c) { c.classList.remove("is-active"); });
+      card.classList.add("is-active");
+    });
+  });
+
   if (menuToggle && navLinks) {
     menuToggle.addEventListener("click", function () {
       var isOpen = navLinks.classList.toggle("nav--open");

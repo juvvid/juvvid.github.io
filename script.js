@@ -30,6 +30,14 @@
     });
   });
 
+  var projectCards = document.querySelectorAll(".project-grid .project-card");
+  projectCards.forEach(function (card) {
+    card.addEventListener("click", function () {
+      projectCards.forEach(function (c) { c.classList.remove("is-active"); });
+      card.classList.add("is-active");
+    });
+  });
+
   if (menuToggle && navLinks) {
     menuToggle.addEventListener("click", function () {
       var isOpen = navLinks.classList.toggle("nav--open");

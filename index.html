@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ko" data-lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hee Ju Je — Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-inner">
+    <a class="brand" href="#hero">Hee Ju Je <span class="lang-ko">제희주</span></a>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="nav-links" class="nav-links">
+      <a href="#publications"><span class="lang-en">Publications</span><span class="lang-ko">논문</span></a>
+      <a href="#projects"><span class="lang-en">Projects</span><span class="lang-ko">프로젝트</span></a>
+      <a href="#education"><span class="lang-en">Education</span><span class="lang-ko">학력</span></a>
+      <a href="#activities"><span class="lang-en">Activities</span><span class="lang-ko">활동</span></a>
+      <a href="#contact"><span class="lang-en">Contact</span><span class="lang-ko">연락처</span></a>
+      <a class="cv-btn" href="assets/docs/cv.pdf" target="_blank" rel="noopener">
+        <span class="lang-en">Download CV</span><span class="lang-ko">CV 다운로드</span>
+      </a>
+      <button id="lang-toggle" class="lang-toggle" aria-label="Switch language">
+        <span class="lang-en">한글</span><span class="lang-ko">EN</span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="hero" class="section">
+    <div class="section-inner hero-inner">
+      <img class="hero-photo" src="assets/img/profile-photo.jpg" alt="Hee Ju Je / 제희주 프로필 사진" width="160" height="160">
+      <div class="hero-text">
+        <h1>Hee Ju Je <span class="lang-ko">제희주</span></h1>
+        <p class="hero-tagline">
+          <span class="lang-en">I design the data-analysis process myself and verify the grounds and consistency of AI-generated interpretations.</span>
+          <span class="lang-ko">데이터 분석 과정을 직접 설계하고, AI가 제시하는 해석의 근거와 일관성을 검증합니다.</span>
+        </p>
+        <p class="hero-direction">
+          <span class="lang-en">Recently, I've broadened this interest to the trustworthiness of LLMs and AI agents, exploring whether their explanations truly reflect their reasoning and remain stable across different inputs and environments.</span>
+          <span class="lang-ko">최근에는 LLM과 AI Agent의 신뢰성으로 관심을 넓혀, AI의 설명이 실제 판단 근거를 반영하는지, 입력과 환경이 달라져도 안정적으로 작동하는지 탐구하고 있습니다.</span>
+        </p>
+        <div class="hero-links">
+          <a href="mailto:hjuje83@gmail.com">hjuje83@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications" class="section section--alt">
+    <div class="section-inner">
+      <h2><span class="lang-en">Publications</span><span class="lang-ko">논문</span></h2>
+
+      <article class="pub-card pub-card--journal">
+        <span class="badge"><span class="lang-en">First Author</span><span class="lang-ko">제1저자</span></span>
+        <h3>A GT 3D Bounding-Box-Based Framework for Geometric Quantification and Spatial Validation of Vehicle Frontal Blind Spots</h3>
+        <p class="pub-meta">Heeju Je, Seoyoung Choi, and Beom Kwon. (2026). <em>Sensors</em>, 26(21), 7093.</p>
+        <p>
+          <span class="lang-en">Proposed a GT 3D bounding-box–based geometric method quantifying frontal blind-spot distance, area, and volume using the TUMTraf dataset, extending a prior 2D CCTV-based project. Led research design, data preprocessing, geometric modeling, validation, and manuscript preparation.</span>
+          <span class="lang-ko">TUMTraf 데이터셋을 활용해 GT 3D 바운딩 박스 기반으로 차량 전방 사각지대의 거리·면적·부피를 정량화하는 기하학적 방법을 제안했습니다. 기존 2D CCTV 기반 프로젝트를 3D로 확장한 연구이며, 연구 설계·데이터 전처리·기하 모델링·검증·논문 작성을 주도했습니다.</span>
+        </p>
+        <div class="pub-links">
+          <a href="https://doi.org/10.3390/s26217093" target="_blank" rel="noopener">DOI: 10.3390/s26217093</a>
+          <a href="assets/docs/sensors-paper.pdf" target="_blank" rel="noopener"><span class="lang-en">Download PDF</span><span class="lang-ko">PDF 다운로드</span></a>
+          <a href="#projects"><span class="lang-en">View project</span><span class="lang-ko">프로젝트 보기</span></a>
+        </div>
+      </article>
+
+      <article class="pub-card">
+        <span class="badge badge--muted"><span class="lang-en">Conference Paper</span><span class="lang-ko">학술대회 논문</span></span>
+        <h3>Analysis of Visual Characteristics That Cause 3D Reconstruction Failures in Classrooms</h3>
+        <p class="pub-meta">Bo-min Son, Hee-Ju Je, and Tae-wan Kim. (2026). <em>Proceedings of the Annual Conference of KIPS (ACK 2026)</em>, 33(2), pp. 1196–1198.</p>
+        <p>
+          <span class="lang-en">Examined how camera viewpoint and reconstruction seed variation across multiple classroom scenes relate to 3D reconstruction failures, as part of a capstone project.</span>
+          <span class="lang-ko">캡스톤 프로젝트의 일환으로, 여러 교실 장면에서 카메라 시점과 재구성 시드(seed) 변화가 3D 재구성 실패와 어떤 관련이 있는지 분석했습니다.</span>
+        </p>
+        <div class="pub-links">
+          <a href="assets/docs/kips-paper.pdf" target="_blank" rel="noopener"><span class="lang-en">Download paper (PDF)</span><span class="lang-ko">논문 다운로드(PDF)</span></a>
+          <a href="assets/docs/capstone-poster.pdf" target="_blank" rel="noopener"><span class="lang-en">View poster (PDF)</span><span class="lang-ko">포스터 보기(PDF)</span></a>
+          <a href="#projects"><span class="lang-en">View project</span><span class="lang-ko">프로젝트 보기</span></a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="section-inner">
+      <h2><span class="lang-en">Projects</span><span class="lang-ko">프로젝트</span></h2>
+      <div class="project-grid">
+
+        <article class="project-card">
+          <p class="meta">Oct 2026 – <span class="lang-en">Present</span><span class="lang-ko">현재</span></p>
+          <h3>What Drives Multi-Tier Escalation?</h3>
+          <p class="project-sub">
+            <span class="lang-en">Fidelity and Paraphrase-Stability of Post-hoc Explanations for Cost-Aware LLM Escalation</span>
+            <span class="lang-ko">비용 인식 LLM 에스컬레이션을 위한 사후 설명의 충실도 및 패러프레이즈 안정성 연구</span>
+          </p>
+          <div class="tags"><span>LLM</span><span>Explainability</span><span>Cost-Aware Systems</span></div>
+          <p>
+            <span class="lang-en">Ongoing research on whether post-hoc explanations for LLM outputs remain faithful and stable under paraphrasing, in the context of deciding when a cheaper model should escalate a query to a more capable one.</span>
+            <span class="lang-ko">LLM 출력에 대한 사후 설명이 문장을 바꿔 표현해도 충실성과 안정성을 유지하는지, 저비용 모델이 언제 더 강력한 모델로 질의를 에스컬레이션해야 하는지의 맥락에서 진행 중인 연구입니다.</span>
+          </p>
+        </article>
+
+        <article class="project-card project-card--flagship" id="project-blindspot">
+          <p class="meta">Jul 2026 – Nov 2026</p>
+          <h3>A GT 3D Bounding-Box-Based Framework for Vehicle Frontal Blind Spots</h3>
+          <div class="tags"><span>3D Geometry</span><span>Computer Vision</span><span>TUMTraf</span><span class="tag--accent">First Author</span></div>
+          <p>
+            <span class="lang-en">Built the full measurement pipeline behind the Sensors paper — from TUMTraf label preprocessing and geometric modeling to camera-projection checks, sensitivity analysis, and qualitative validation.</span>
+            <span class="lang-ko">Sensors 논문을 뒷받침하는 전체 측정 파이프라인을 직접 구축했습니다 — TUMTraf 라벨 전처리와 기하 모델링부터 카메라 투영 검증, 민감도 분석, 정성적 검증까지.</span>
+          </p>
+          <div class="pub-links">
+            <a href="#publications"><span class="lang-en">Published in Sensors — view publication</span><span class="lang-ko">Sensors 저널 게재 — 논문 보기</span></a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <p class="meta">Jul 2026 – <span class="lang-en">Present</span><span class="lang-ko">현재</span></p>
+          <h3>Regional Vulnerability Analysis of Arctic Sea-Ice Decline</h3>
+          <p class="project-sub"><span class="lang-en">Dongduk Women's University — KOPRI Competition</span><span class="lang-ko">동덕여자대학교 — 극지연구소 공모전</span></p>
+          <div class="tags"><span>Anomaly Detection</span><span>IsolationForest</span><span>LLM Pipeline</span><span>Geospatial Data</span></div>
+          <div class="project-gallery">
+            <img src="assets/img/arctic-region-map.png" alt="Map of the 11 IHO Arctic sea regions used for the analysis / 분석에 사용된 북극 11개 IHO 해역 지도" loading="lazy">
+            <img src="assets/img/arctic-trend-map.png" alt="Integrated winter sea-ice thickness trend map / 겨울철 해빙 두께 트렌드 통합 지도" loading="lazy">
+          </div>
+          <p>
+            <span class="lang-en">Integrated already-processed Arctic indicators (SST–SIC correlation, SIT trend, EOF/PC modes) across 11 IHO sea regions, applied IsolationForest to flag anomalous region-period combinations, and built an LLM pipeline (Groq API) that synthesizes region-level vulnerability interpretations from the trend and EOF results.</span>
+            <span class="lang-ko">이미 가공된 북극 지표(SST–SIC 상관, SIT trend, EOF/PC)를 11개 IHO 해역 단위로 통합하고, IsolationForest로 평소 패턴에서 벗어난 해역×기간 조합을 탐지했습니다. 이 결과와 EOF 유형화 결과를 LLM 파이프라인(Groq API)에 입력해 해역별 취약성 해석을 종합했습니다.</span>
+          </p>
+        </article>
+
+        <article class="project-card" id="project-capstone">
+          <p class="meta">2026</p>
+          <h3>Analysis of Visual Characteristics That Cause 3D Reconstruction Failures in Classrooms</h3>
+          <p class="project-sub"><span class="lang-en">Capstone Project — with Bo-min Son, Tae-wan Kim</span><span class="lang-ko">캡스톤 프로젝트 — 손보민, 김태완과 공동</span></p>
+          <div class="tags"><span>3D Reconstruction</span><span>Computer Vision</span><span>Capstone</span></div>
+          <div class="project-gallery">
+            <img src="assets/img/capstone-room-1.png" alt="Reconstructed classroom scene, viewpoint 1 / 재구성된 교실 장면 1" loading="lazy">
+            <img src="assets/img/capstone-room-2.png" alt="Reconstructed classroom scene, viewpoint 2 / 재구성된 교실 장면 2" loading="lazy">
+            <img src="assets/img/capstone-camera-model.png" alt="Camera model diagram used in the analysis / 분석에 사용된 카메라 모델 다이어그램" loading="lazy">
+          </div>
+          <p>
+            <span class="lang-en">Compared 3D reconstructions across five classroom scenes under different camera models and reconstruction seeds, using visual diagnostics to trace where reconstructions broke down.</span>
+            <span class="lang-ko">카메라 모델과 재구성 시드를 바꿔가며 5개 교실 장면의 3D 재구성을 비교하고, 시각적 진단 자료로 재구성이 어디서 무너지는지 추적했습니다.</span>
+          </p>
+          <div class="pub-links">
+            <a href="#publications"><span class="lang-en">View publication</span><span class="lang-ko">논문 보기</span></a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <p class="meta">May 2024 – Jun 2024</p>
+          <h3>GPR-Based Buried-Object Detection Using CNN and ResNet</h3>
+          <p class="project-sub"><span class="lang-en">Personal Project</span><span class="lang-ko">개인 프로젝트</span></p>
+          <div class="tags"><span>CNN</span><span>ResNet</span><span>Signal Processing</span><span>Keras</span></div>
+          <p>
+            <span class="lang-en">Converted CMU-GPR ground-penetrating radar traces into normalized grayscale B-scan images and hand-labeled 200 samples (normal vs. buried-object). Implemented an Xception-style residual CNN and a ResNet from scratch in Keras for binary classification; both models classified held-out samples correctly, with ResNet giving sharper anomaly discrimination.</span>
+            <span class="lang-ko">CMU-GPR(지표투과레이더) 신호를 정규화된 그레이스케일 B-scan 이미지로 변환하고 200개 샘플을 정상/매설물 있음으로 직접 라벨링했습니다. Keras로 Xception 스타일의 residual CNN과 ResNet을 직접 구현해 이진 분류를 수행했으며, 두 모델 모두 held-out 샘플을 올바르게 분류했고 ResNet이 더 뚜렷한 이상 신호 구분력을 보였습니다.</span>
+          </p>
+        </article>
+
+        <article class="project-card">
+          <p class="meta">Jul 2023 – Aug 2023</p>
+          <h3>Patent Landscape and Freedom-to-Operate Analysis of Food-Waste Treatment Technologies</h3>
+          <p class="project-sub"><span class="lang-en">Campus Patent Universiade 2023 — Team B9</span><span class="lang-ko">캠퍼스 특허 유니버시아드 2023 — B9팀</span></p>
+          <div class="tags"><span>Patent Analysis</span><span>IP Research</span><span>Team Project</span></div>
+          <p>
+            <span class="lang-en">Built a five-category patent landscape across the KR/JP/US/EP offices using bilingual proximity-operator queries with iterative noise-term pruning, defined an S/A/B relevance-grading rubric, and produced claim-level freedom-to-operate analysis (KR jurisdiction) alongside quantitative analysis (assignee rankings, filing-year trends, technology-flow maps) in an 87-page final report.</span>
+            <span class="lang-ko">한·일·미·유럽(KR/JP/US/EP) 특허청을 대상으로 5개 카테고리의 특허 지형을 조사했고, 이중언어 근접연산자 검색과 반복적 노이즈어 정제, S/A/B 관련도 평가 기준을 적용했습니다. 청구항 단위의 자유실시(FTO) 분석(KR 관할)과 출원인 순위·연도별 출원 추세·기술 흐름도를 포함한 정량 분석을 수행해 87페이지 분량의 최종 보고서를 작성했습니다.</span>
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section section--alt">
+    <div class="section-inner">
+      <h2><span class="lang-en">Education</span><span class="lang-ko">학력</span></h2>
+      <div class="edu-item">
+        <h3>Dongduk Women's University</h3>
+        <p class="meta">2021.03 – <span class="lang-en">Present</span><span class="lang-ko">현재</span></p>
+        <p>
+          <span class="lang-en">B.A. in English and B.S. in Data Science (double major)</span>
+          <span class="lang-ko">영어학 학사 및 데이터사이언스학 학사 (복수전공)</span>
+        </p>
+        <p class="meta">
+          <span class="lang-en">Major GPA: 3.22 / 4.5</span>
+          <span class="lang-ko">전공 평점: 3.22 / 4.5</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="activities" class="section">
+    <div class="section-inner">
+      <h2><span class="lang-en">Extracurricular Activities</span><span class="lang-ko">교내 활동</span></h2>
+      <article class="project-card">
+        <p class="meta">Apr 2024 – Aug 2024</p>
+        <h3>Hair-Loss Risk Prediction Using Personal Health and Lifestyle Data</h3>
+        <p class="project-sub"><span class="lang-en">WeIT Academic Club Activities — Team Cocopalm</span><span class="lang-ko">WeIT 학회 활동 — Cocopalm 팀</span></p>
+        <div class="tags"><span>Classification</span><span>EDA</span><span>Random Forest</span></div>
+        <p>
+          <span class="lang-en">Ran binary classification on the Kaggle Predict Hair Fall dataset (11 genetic, lifestyle, and health features). Performed EDA and statistical feature selection, compared six classifiers, and selected Random Forest as the final model.</span>
+          <span class="lang-ko">Kaggle Predict Hair Fall 데이터셋(유전·생활습관·건강 관련 11개 특성)으로 이진 분류를 수행했습니다. 탐색적 데이터 분석(EDA)과 통계적 특성 선택을 거쳐 6개 분류기를 비교했고, 최종 모델로 Random Forest를 선택했습니다.</span>
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="section-inner contact-inner">
+      <h2><span class="lang-en">Contact</span><span class="lang-ko">연락처</span></h2>
+      <p>
+        <span class="lang-en">Feel free to reach out by email or GitHub.</span>
+        <span class="lang-ko">이메일이나 GitHub로 편하게 연락해주세요.</span>
+      </p>
+      <div class="contact-links">
+        <a class="contact-btn" href="mailto:hjuje83@gmail.com">hjuje83@gmail.com</a>
+        <a class="contact-btn" href="https://github.com/juvvid" target="_blank" rel="noopener">GitHub: juvvid</a>
+        <a class="contact-btn contact-btn--cv" href="assets/docs/cv.pdf" target="_blank" rel="noopener">
+          <span class="lang-en">Download CV</span><span class="lang-ko">CV 다운로드</span>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>
+    &copy; 2026 Hee Ju Je <span class="lang-ko">제희주</span> ·
+    <a href="mailto:hjuje83@gmail.com">hjuje83@gmail.com</a> ·
+    <a href="https://github.com/juvvid" target="_blank" rel="noopener">GitHub</a>
+  </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
